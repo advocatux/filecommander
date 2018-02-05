@@ -1,0 +1,15 @@
+{
+    "name": "filecommander.jimmiejohnsson",
+    "description": "File browser program",
+    "architecture": "@CLICK_ARCH@",
+    "title": "File Commander",
+    "hooks": {
+        "filecommander": {
+            "apparmor": "filecommander.apparmor",
+            "desktop":  "filecommander.desktop"
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Jimmie Johnsson <jimmiejohnsson84@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
